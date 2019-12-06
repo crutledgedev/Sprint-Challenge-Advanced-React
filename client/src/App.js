@@ -13,7 +13,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div>
       <h1>Women's World Cup</h1>
       <button 
           onClick={toggleMode}
