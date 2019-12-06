@@ -9,8 +9,8 @@ test('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
-test('renders header', () => {
+test('displays title', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/women's world cup/i);
-  // expect(linkElement).toBeInTheDocument();
+  const linkElement = getByText(/women's world cup players/i);
+  
 });

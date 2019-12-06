@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Women's World Cup</h1>
+      <h1>Women's World Cup Players</h1>
        <button 
            onClick={setToggleMode}
            className={darkMode ? 'toggle toggled' : 'toggle'}
