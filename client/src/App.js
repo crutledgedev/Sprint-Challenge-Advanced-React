@@ -1,26 +1,26 @@
 import React from 'react';
 import ClassComponent from './components/ClassComponent';
-import { useDarkMode } from './hooks/useDarkMode';
+// import { useDarkMode } from './hooks/useDarkMode';
 import './App.css';
 
 function App() {
 
-  const [darkMode, setDarkMode] = useDarkMode('dark');
+  // const [darkMode, setDarkMode] = useDarkMode('dark');
 
-  const toggleMode = e => {
-    e.preventDefault();
-    setDarkMode(!darkMode);
-  };
+  // const toggleMode = e => {
+  //   e.preventDefault();
+  //   setDarkMode(!darkMode);
+  // };
 
   return (
-    <div>
+    <div className="App">
       <h1>Women's World Cup</h1>
-      <button 
+      {/* <button 
           onClick={toggleMode}
           className={darkMode ? 'toggle toggled' : 'toggle'}
           >
-          Dark Mode
-      </button>      
+          Dark Mode */}
+      {/* </button>       */}
       <ClassComponent />
     </div>
   );
