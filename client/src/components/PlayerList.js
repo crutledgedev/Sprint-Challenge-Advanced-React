@@ -4,7 +4,7 @@ import axios from 'axios';
 
 
 
-class ClassComponent extends Component {
+class PlayerList extends Component {
     constructor(){
         super();
         this.state = {
@@ -19,6 +19,7 @@ class ClassComponent extends Component {
                 players: response.data
             })
         })
+        .catch(err => console.log(err));
     }
 
     render(){
@@ -26,4 +27,4 @@ class ClassComponent extends Component {
     }
 }
 
-export default ClassComponent; 
+export default PlayerList; 

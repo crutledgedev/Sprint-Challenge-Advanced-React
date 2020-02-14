@@ -9,8 +9,12 @@ test('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
-test('displays title', () => {
+test('displays title and text', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/women's world cup players/i);
+  getByText(/FIFA women's world cup players/i);
+  getByText(/player/i);
+  getByText(/dark mode/i);
+  // getByText(/representing/i);
+
   
 });
