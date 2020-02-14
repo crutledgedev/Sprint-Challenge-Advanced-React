@@ -13,6 +13,7 @@ function App() {
        <button 
            onClick={setToggleMode}
            className={darkMode ? 'toggle toggled' : 'toggle'}
+           data-testid={"toggled"}
           >
           Dark Mode 
        </button>       

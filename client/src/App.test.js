@@ -14,7 +14,14 @@ test('displays title and text', () => {
   getByText(/FIFA women's world cup players/i);
   getByText(/player/i);
   getByText(/dark mode/i);
-  // getByText(/representing/i);
+
 
   
 });
+
+test("toggle renders", () =>{
+  const { getByTestId } = render(<App />);
+  getByTestId("toggled");
+})
+
+
