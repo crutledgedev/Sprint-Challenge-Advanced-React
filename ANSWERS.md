@@ -1,6 +1,6 @@
 - [ ] Why would you use class component over function components (removing hooks from the question)?
 
-    if your component is stateful for requires lifecycle methods you should use class components. if your component only receives props you should use functional components
+    to have access to React Class component life cycle methods
 
 - [ ] Name three lifecycle methods and their purposes.
 
@@ -10,8 +10,9 @@
 
 - [ ] What is the purpose of a custom hook?
 
-    efficiency and usability of code
+    to apply non-visual behavior and stateful logic throughout your components
 
 - [ ] Why is it important to test our apps?
     
-    to determine usecase and user interaction scenerios that might break our code
+    to detect and reduce the risk of introducing bugs and issues in our code prior to deployment.
+  
